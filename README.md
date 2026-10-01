@@ -18,4 +18,11 @@ Attack tool: Mimikatz (github.com/gentilkiwi/mimikatz)
 
 **Result:** The alert fired at its next scheduled run and captured both Mimikatz executions with user, host, file path and parent process.
 
-See `detections/` for the SPL and `screenshots/` for evidence.
+## Evidence
+
+![Sysmon event](01-sysmon-event.png)
+![Detection search](02-detection-search.png)
+![Trigger history](03-trigger-history.png)
+![Alert results](04-alert-results.png)
+
+See `detections/` for the SPL.
